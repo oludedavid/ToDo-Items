@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>toDoApp</title>
+</head>
+<body>
+    <h1>My ToDo App</h1>
+<input type="text" id="eventType" placeholder="Event type" required>    
+<input type="date" id="dateInput" required>   
+<input type="time" id="timeInput"  min="05:00" max="20:00" required>
+<input type="submit" value="Add Event" id="addEvent">
+
+<br>
+
+<h3>Please add an event from Above</h3>
+    <h2>Scheduled Event >>></h2>
+    <br>
+
+<div class="eventContainer">
+
+  <!--<input type="checkbox" name="checkBox" id="check">
+   <label for="check"></label> -->
+</div>
+
+<br>
+
+<button class="clearAll">Remove</button>
+  <button class="checkAll">CheckAll</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
